@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BB2DA019D2EB9B00D18A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2D9F19D2EB9B00D18A42 /* main.m */; };
+		04BB2DA319D2EB9B00D18A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2DA219D2EB9B00D18A42 /* AppDelegate.m */; };
+		04BB2DA619D2EB9B00D18A42 /* MWLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2DA519D2EB9B00D18A42 /* MWLViewController.m */; };
+		04BB2DA919D2EB9B00D18A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BB2DA719D2EB9B00D18A42 /* Main.storyboard */; };
+		04BB2DAB19D2EB9B00D18A42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BB2DAA19D2EB9B00D18A42 /* Images.xcassets */; };
+		04BB2DAE19D2EB9B00D18A42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BB2DAC19D2EB9B00D18A42 /* LaunchScreen.xib */; };
+		04BB2DBA19D2EB9B00D18A42 /* ModalViewLabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2DB919D2EB9B00D18A42 /* ModalViewLabsTests.m */; };
+		04BB2DC619D2F83E00D18A42 /* MWLModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2DC519D2F83E00D18A42 /* MWLModalViewController.m */; };
+		04BB2DC919D2F8C400D18A42 /* MWLContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2DC819D2F8C400D18A42 /* MWLContainerViewController.m */; };
+		04BB2DCC19D2F8DE00D18A42 /* MWLCitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2DCB19D2F8DE00D18A42 /* MWLCitiesTableViewController.m */; };
+		04BB2DCF19D2FADC00D18A42 /* countryCodeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BB2DCE19D2FADC00D18A42 /* countryCodeList.plist */; };
+		04BB2DD219D2FB5F00D18A42 /* NSLocale+LocalizedCountryCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2DD119D2FB5F00D18A42 /* NSLocale+LocalizedCountryCodes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BB2DB419D2EB9B00D18A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BB2D9219D2EB9B00D18A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BB2D9919D2EB9B00D18A42;
+			remoteInfo = ModalViewLabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BB2D9A19D2EB9B00D18A42 /* ModalViewLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalViewLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BB2D9E19D2EB9B00D18A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BB2D9F19D2EB9B00D18A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BB2DA119D2EB9B00D18A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BB2DA219D2EB9B00D18A42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BB2DA419D2EB9B00D18A42 /* MWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWLViewController.h; sourceTree = "<group>"; };
+		04BB2DA519D2EB9B00D18A42 /* MWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWLViewController.m; sourceTree = "<group>"; };
+		04BB2DA819D2EB9B00D18A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BB2DAA19D2EB9B00D18A42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04BB2DAD19D2EB9B00D18A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04BB2DB319D2EB9B00D18A42 /* ModalViewLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalViewLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BB2DB819D2EB9B00D18A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BB2DB919D2EB9B00D18A42 /* ModalViewLabsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewLabsTests.m; sourceTree = "<group>"; };
+		04BB2DC419D2F83E00D18A42 /* MWLModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLModalViewController.h; sourceTree = "<group>"; };
+		04BB2DC519D2F83E00D18A42 /* MWLModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLModalViewController.m; sourceTree = "<group>"; };
+		04BB2DC719D2F8C400D18A42 /* MWLContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLContainerViewController.h; sourceTree = "<group>"; };
+		04BB2DC819D2F8C400D18A42 /* MWLContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLContainerViewController.m; sourceTree = "<group>"; };
+		04BB2DCA19D2F8DE00D18A42 /* MWLCitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLCitiesTableViewController.h; sourceTree = "<group>"; };
+		04BB2DCB19D2F8DE00D18A42 /* MWLCitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLCitiesTableViewController.m; sourceTree = "<group>"; };
+		04BB2DCE19D2FADC00D18A42 /* countryCodeList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countryCodeList.plist; sourceTree = "<group>"; };
+		04BB2DD019D2FB5F00D18A42 /* NSLocale+LocalizedCountryCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+LocalizedCountryCodes.h"; sourceTree = "<group>"; };
+		04BB2DD119D2FB5F00D18A42 /* NSLocale+LocalizedCountryCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+LocalizedCountryCodes.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BB2D9719D2EB9B00D18A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BB2DB019D2EB9B00D18A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BB2D9119D2EB9B00D18A42 = {
+			isa = PBXGroup;
+			children = (
+				04BB2D9C19D2EB9B00D18A42 /* ModalViewLabs */,
+				04BB2DB619D2EB9B00D18A42 /* ModalViewLabsTests */,
+				04BB2D9B19D2EB9B00D18A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BB2D9B19D2EB9B00D18A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BB2D9A19D2EB9B00D18A42 /* ModalViewLabs.app */,
+				04BB2DB319D2EB9B00D18A42 /* ModalViewLabsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BB2D9C19D2EB9B00D18A42 /* ModalViewLabs */ = {
+			isa = PBXGroup;
+			children = (
+				04BB2DCD19D2FAC700D18A42 /* Utils */,
+				04BB2DC319D2F81400D18A42 /* ViewControllers */,
+				04BB2DA119D2EB9B00D18A42 /* AppDelegate.h */,
+				04BB2DA219D2EB9B00D18A42 /* AppDelegate.m */,
+				04BB2DA719D2EB9B00D18A42 /* Main.storyboard */,
+				04BB2DAA19D2EB9B00D18A42 /* Images.xcassets */,
+				04BB2DAC19D2EB9B00D18A42 /* LaunchScreen.xib */,
+				04BB2D9D19D2EB9B00D18A42 /* Supporting Files */,
+			);
+			path = ModalViewLabs;
+			sourceTree = "<group>";
+		};
+		04BB2D9D19D2EB9B00D18A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BB2D9E19D2EB9B00D18A42 /* Info.plist */,
+				04BB2D9F19D2EB9B00D18A42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BB2DB619D2EB9B00D18A42 /* ModalViewLabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BB2DB919D2EB9B00D18A42 /* ModalViewLabsTests.m */,
+				04BB2DB719D2EB9B00D18A42 /* Supporting Files */,
+			);
+			path = ModalViewLabsTests;
+			sourceTree = "<group>";
+		};
+		04BB2DB719D2EB9B00D18A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BB2DB819D2EB9B00D18A42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BB2DC319D2F81400D18A42 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04BB2DA419D2EB9B00D18A42 /* MWLViewController.h */,
+				04BB2DA519D2EB9B00D18A42 /* MWLViewController.m */,
+				04BB2DC419D2F83E00D18A42 /* MWLModalViewController.h */,
+				04BB2DC519D2F83E00D18A42 /* MWLModalViewController.m */,
+				04BB2DC719D2F8C400D18A42 /* MWLContainerViewController.h */,
+				04BB2DC819D2F8C400D18A42 /* MWLContainerViewController.m */,
+				04BB2DCA19D2F8DE00D18A42 /* MWLCitiesTableViewController.h */,
+				04BB2DCB19D2F8DE00D18A42 /* MWLCitiesTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04BB2DCD19D2FAC700D18A42 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04BB2DCE19D2FADC00D18A42 /* countryCodeList.plist */,
+				04BB2DD019D2FB5F00D18A42 /* NSLocale+LocalizedCountryCodes.h */,
+				04BB2DD119D2FB5F00D18A42 /* NSLocale+LocalizedCountryCodes.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BB2D9919D2EB9B00D18A42 /* ModalViewLabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BB2DBD19D2EB9B00D18A42 /* Build configuration list for PBXNativeTarget "ModalViewLabs" */;
+			buildPhases = (
+				04BB2D9619D2EB9B00D18A42 /* Sources */,
+				04BB2D9719D2EB9B00D18A42 /* Frameworks */,
+				04BB2D9819D2EB9B00D18A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalViewLabs;
+			productName = ModalViewLabs;
+			productReference = 04BB2D9A19D2EB9B00D18A42 /* ModalViewLabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BB2DB219D2EB9B00D18A42 /* ModalViewLabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BB2DC019D2EB9B00D18A42 /* Build configuration list for PBXNativeTarget "ModalViewLabsTests" */;
+			buildPhases = (
+				04BB2DAF19D2EB9B00D18A42 /* Sources */,
+				04BB2DB019D2EB9B00D18A42 /* Frameworks */,
+				04BB2DB119D2EB9B00D18A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BB2DB519D2EB9B00D18A42 /* PBXTargetDependency */,
+			);
+			name = ModalViewLabsTests;
+			productName = ModalViewLabsTests;
+			productReference = 04BB2DB319D2EB9B00D18A42 /* ModalViewLabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BB2D9219D2EB9B00D18A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Marcin Pedzimaz";
+				TargetAttributes = {
+					04BB2D9919D2EB9B00D18A42 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					04BB2DB219D2EB9B00D18A42 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 04BB2D9919D2EB9B00D18A42;
+					};
+				};
+			};
+			buildConfigurationList = 04BB2D9519D2EB9B00D18A42 /* Build configuration list for PBXProject "ModalViewLabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BB2D9119D2EB9B00D18A42;
+			productRefGroup = 04BB2D9B19D2EB9B00D18A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BB2D9919D2EB9B00D18A42 /* ModalViewLabs */,
+				04BB2DB219D2EB9B00D18A42 /* ModalViewLabsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BB2D9819D2EB9B00D18A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BB2DCF19D2FADC00D18A42 /* countryCodeList.plist in Resources */,
+				04BB2DA919D2EB9B00D18A42 /* Main.storyboard in Resources */,
+				04BB2DAE19D2EB9B00D18A42 /* LaunchScreen.xib in Resources */,
+				04BB2DAB19D2EB9B00D18A42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BB2DB119D2EB9B00D18A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BB2D9619D2EB9B00D18A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BB2DD219D2FB5F00D18A42 /* NSLocale+LocalizedCountryCodes.m in Sources */,
+				04BB2DA619D2EB9B00D18A42 /* MWLViewController.m in Sources */,
+				04BB2DA319D2EB9B00D18A42 /* AppDelegate.m in Sources */,
+				04BB2DA019D2EB9B00D18A42 /* main.m in Sources */,
+				04BB2DCC19D2F8DE00D18A42 /* MWLCitiesTableViewController.m in Sources */,
+				04BB2DC619D2F83E00D18A42 /* MWLModalViewController.m in Sources */,
+				04BB2DC919D2F8C400D18A42 /* MWLContainerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BB2DAF19D2EB9B00D18A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BB2DBA19D2EB9B00D18A42 /* ModalViewLabsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BB2DB519D2EB9B00D18A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BB2D9919D2EB9B00D18A42 /* ModalViewLabs */;
+			targetProxy = 04BB2DB419D2EB9B00D18A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BB2DA719D2EB9B00D18A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BB2DA819D2EB9B00D18A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BB2DAC19D2EB9B00D18A42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BB2DAD19D2EB9B00D18A42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BB2DBB19D2EB9B00D18A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		04BB2DBC19D2EB9B00D18A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BB2DBE19D2EB9B00D18A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ModalViewLabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BB2DBF19D2EB9B00D18A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ModalViewLabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BB2DC119D2EB9B00D18A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ModalViewLabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalViewLabs.app/ModalViewLabs";
+			};
+			name = Debug;
+		};
+		04BB2DC219D2EB9B00D18A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ModalViewLabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalViewLabs.app/ModalViewLabs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BB2D9519D2EB9B00D18A42 /* Build configuration list for PBXProject "ModalViewLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BB2DBB19D2EB9B00D18A42 /* Debug */,
+				04BB2DBC19D2EB9B00D18A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BB2DBD19D2EB9B00D18A42 /* Build configuration list for PBXNativeTarget "ModalViewLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BB2DBE19D2EB9B00D18A42 /* Debug */,
+				04BB2DBF19D2EB9B00D18A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BB2DC019D2EB9B00D18A42 /* Build configuration list for PBXNativeTarget "ModalViewLabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BB2DC119D2EB9B00D18A42 /* Debug */,
+				04BB2DC219D2EB9B00D18A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BB2D9219D2EB9B00D18A42 /* Project object */;
+}
